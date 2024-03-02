@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>clone Redbus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- first row start-->
+    <nav class="flex justify-between text-2xl border-b text-gray-500 p-4 m-1">
+      <div class="flex gap-3">
+        <div><i class="fa-solid fa-bars"></i></div>
+        <div>
+          <i class="fa-solid fa-van-shuttle" style="color: #d84e55"></i>
+        </div>
+      </div>
+
+      <div class="flex gap-3">
+        <div><i class="fa-solid fa-mobile-screen-button"></i></div>
+        <div><i class="fa-regular fa-user"></i></div>
+      </div>
+    </nav>
+    <!-- first row end -->
+
+    <!-- second row start -->
+    <div class="flex pt-3 justify-center gap-10">
+      <div class="bg-[#D84E55] text-white rounded-md p-1 w-24 m-1">
+        <div class="text-center text-xl">
+          <i class="fa-solid fa-van-shuttle"></i>
+        </div>
+        <div class="text-center text-sm">Book bus tickets</div>
+      </div>
+
+      <div class="rounded-md p-1 w-24 m-1">
+        <div class="text-center text-xl"><i class="fa-solid fa-train"></i></div>
+        <div class="text-center text-sm">Book train tickets</div>
+      </div>
+    </div>
+    <!-- second row end -->
+
+    <!-- third row start -->
+    <div class="m-4 p-3 border-t">
+      <div class="text-center">
+        <div class="font-semibold">Bus Ticket Booking</div>
+        <div class="text-xs text-gray-500 mb-3">Assured seat of your choice</div>
+      </div>
+
+      <div class="border rounded px-4 py-2 w-full shadow-md">
+          <div class="flex p-4 gap-2 border-b">
+            <div><i class="fa-solid fa-plane-departure"></i></div>
+            <div>From</div>
+          </div>
+
+          <div class="flex p-4 gap-2 border-b">
+            <div><i class="fa-solid fa-plane-arrival"></i></div>
+            <div>To</div>
+          </div>
+
+          <div class="flex p-4 gap-2 border-b justify-between">
+            <div class="flex gap-2">
+               <div><i class="fa-solid fa-calendar-days"></i></div>
+               <div><span class="font-bold">2</span> MAR <span class="text-xs">SAT</span></div>
+            </div>
+
+            <div class="flex gap-3 text-blue-800 font-bold text-sm">
+              <div>Today</div>
+              <div>Tomorrow</div>
+            </div>
+          </div>
+
+          <div class="p-4">
+            <button class="text-center w-[100%] rounded p-2 bg-red-400 text-white font-bold hover:bg-red-500">SEARCH BUSES</button>
+          </div>
+      </div>
+    <!-- third row end -->
+  </body>
+</html>
